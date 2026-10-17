@@ -1,0 +1,31 @@
+# Entornos virtuales
+venv/
+.venv/
+env/
+ENV/
+
+# Archivos de configuración y secretos
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Bytecode y caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Caché de pruebas y cobertura
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+
+# Editores y sistemas operativos
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
